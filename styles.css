@@ -72,10 +72,6 @@ section {
     max-width: 100%;
 }
 
-.proyek:hover {
-    transform: scale(1.05);
-}
-
 form {
     max-width: 400px;
     background-color: #e11212;
