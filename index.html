@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portofolio</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>My Portofolio</h1>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Halo! Perkenalkan saya Imam Hilmi Saputra. Saya seorang pemula yang tertarik mempelajari web development.</p>
+
+            <!-- Elemen ini baru akan muncul ketika user menekan tombol -->
+            <div class="more-content" id="more-content">
+            <p>
+                Saya mulai tertarik dengan dunia web development pada tahun 2021 di mana saat itu saya masih berada di bangku kelas 3 SMA, hingga saat ini saya masih terus belajar mengasah kemampuan saya.
+            </p>
+
+            <p>
+                Teknologi yang saya pelajari selama ini:
+                <ul>
+                    <li>
+                        HTML - Menengah
+                    </li>
+                    <li>
+                        CSS - Pemula
+                    </li>
+                    <li>
+                        Javascript - Pemula
+                    </li>
+                </ul>
+            </p>
+
+            <h3>Sertifikat Kursus</h3>
+            <p>
+                Di waktu senggang, saya juga telah mengikuti kursus web development baik secara online maupun offline.
+            </p>
+
+            <div class="proyek-list">
+                <div class="proyek">
+                    <img src="Assets/LPKII.jpg" alt="Sertifikat LPKII Cimahi 2022" />
+                    <h3>LPKII</h3>
+                    <p>
+                        <strong>2022</strong>
+                        - Sertifikat Kursus Web Development Dasar LPKII Cimahi.
+                    </p>
+                </div>
+                <div class="proyek">
+                    <img src="Assets/Babastudio.jpg" alt="Proyek 2" />
+                    <h3>Babastudio</h3>
+                    <p>
+                        <strong>2022</strong>
+                        - Sertifikat Kursus Pengemban Web Dasar Babastudio Prakerja.
+                    </p>
+                </div>
+            </div>
+            </div>
+
+            <button type="button" class="show-more-btn" id="show-more-btn">Selengkapnya</button>
+        </section>
+
+        <section id="project">
+            <h2>My Projects</h2>
+            <div class="proyek-list">
+                <div class="proyek">
+                    <a href="Projects/survey-form/index.html">
+                        <img src="Assets/Form.PNG" alt="Survey Form" />
+                    </a>
+                    <h3>Survey Form</h3>
+                    <p>
+                        <strong>2022</strong>
+                        - Pembuatan halaman form survei untuk siswa SMA SUKA CITA.
+                    </p>
+                </div>
+                <div class="proyek">
+                    <a href="Projects/tribute-page/index.html">
+                        <img src="Assets/Tribute.PNG" alt="Tribute Page" />
+                    </a>
+                    <h3>Tribute Page</h3>
+                    <p>
+                        <strong>2022</strong>
+                        - Halaman yang berisi perjalanan karir sepak bola bernama Mesut Ozil.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Imam Hilmi Saputra</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
