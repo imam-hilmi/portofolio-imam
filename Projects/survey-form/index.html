@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title" class="text-center">SMA SUKA CITA SURVEY FORM</h1>
+            <p id="description" class="text-center">Silakan isi data berikut</p>
+            <form id="survey-form">
+                <div class="form-group">
+                    <label for="name" id="name-label">Nama</label>
+                    <input id="name" type="text" class="form-control" placeholder="Masukkan Nama Anda" required />
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email-label">Email</label>
+                    <input id="email" type="email" class="form-control" placeholder="Masukkan Email Anda" required />
+                </div>
+                <div class="form-group">
+                    <label for="nisn" id="nisn-label">NISN</label>
+                    <input id="nisn" type="number" class="form-control" placeholder="Masukkan NISN Anda" required />
+                </div>
+                <div class="form-group">
+                    <label for="date-of-birth" id="date-of-birth-label">Tanggal Lahir</label>
+                    <input id="date-of-birth" type="date" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <p>Kelas</p>
+                    <select id="dropdown" class="form-control">
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>Jurusan</p>
+                    <label>
+                        <input type="radio" name="user-class" value="10" class="input-radio" />
+                        Ilmu Pengetahuan Alam (IPA)
+                    </label>
+                    <label>
+                        <input type="radio" name="user-class" value="11" class="input-radio" />
+                        Ilmu Pengetahuan Sosial (IPS)
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>Ekstrakurikuler (Boleh lebih dari satu)</p>
+                    <label>
+                        <input type="checkbox" name="prefer" value="osis" class="input-checkbox" />
+                        OSIS
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="futsal" class="input-checkbox" />
+                        FUTSAL
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="english-club" class="input-checkbox" />
+                        ENGLISH CLUB
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="rohis" class="input-checkbox" />
+                        ROHIS
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="nihongokai" class="input-checkbox" />
+                        NIHONGOKAI
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="science-club" class="input-checkbox" />
+                        SCIENCE CLUB
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="paduan-suara" class="input-checkbox" />
+                        PADUAN SUARA
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="basket" class="input-checkbox" />
+                        BASKET
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="volly" class="input-checkbox" />
+                        VOLLY
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="teater" class="input-checkbox" />
+                        TEATER
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="paskibra" class="input-checkbox" />
+                        PASKIBRA
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="pmr" class="input-checkbox" />
+                        PMR
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="badminton" class="input-checkbox" />
+                        BADMINTON
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prefer" value="none" class="input-checkbox" />
+                        TIDAK IKUT EKSKUL
+                    </label>
+                </div>
+                <div class="right-btn">
+                    <a href="questions.html">Berikutnya</a>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>&copy; 2022 SMA SUKA CITA</p>
+        </footer>
+    </body>
+</html>
